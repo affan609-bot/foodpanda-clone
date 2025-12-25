@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐼Foodpanda</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body> 
+  <!-- Navigation -->
+  <nav>
+    <div class="logo-container">
+      <div class="logo-icon">🐼</div>
+      <div class="logo-text">foodpanda</div>
+    </div>
+
+    <ul id="nav-menu" class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#info-section">About</a></li>
+      <li><a href="#delivery-section">Newsroom</a></li>
+      <li><a href="#news-section">Partners</a></li>
+      <li><a href="https://foodpanda-ads.netlify.app/">panda ads</a></li>
+      <li><a href="#business-section">Contact</a></li>
+      <li><a href="#careers">Careers</a></li>
+    </ul>
+
+    <div style="display: flex; align-items: center; gap: 20px;">
+      <button id="choose-location-btn" class="choose-location-btn">Choose location</button>
+      <span class="search-icon">🔍</span>
+    </div>
+
+    <div id="menu-toggle" class="menu-toggle">☰</div>
+  </nav>
+
+  <!-- Hero Section with Video Background -->
+  <section id="home" class="hero-section">
+    <!-- Video Background - REPLACE THIS WITH YOUR ACTUAL VIDEO FILE -->
+    <video class="video-background" autoplay muted loop playsinline>
+      <source src="./foodpanda sambhal le ga.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+      <h1 class="hero-title">food<br>and groceries<br>in a tap</h1>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section id="info-section" class="info-section">
+    <div class="info-content">
+      <h5 class="info-title">We're here to help you<br>live life the panda way.</h5>
+      <h5 class="info-title">Spend more time doing what <br> you love – we'll take care of <br> tasty meals,fresh
+        groceries <br> and new flavours.</h5>
+    </div>
+  </section>
+
+
+
+
+  <section id="delivery-section" class="delivery-section">
+    <div class="delivery-container">
+
+      <!-- Left Image -->
+      <div class="delivery-image">
+        <img src="./generation.webp" alt="Food Delivery App">
+      </div>
+
+      <!-- Right Content -->
+      <div class="delivery-content">
+        <h2>Meet the next<br>generation of delivery!</h2>
+        <p>
+          What makes quick commerce quick? We stand for swift personalised
+          delivery solutions for our customers, partners and employees.
+          Learn how we empower authentic lifestyles and drive innovation
+          across the globe.
+        </p>
+        <a href="#" class="btn">About</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="convenience-section">
+    <div class="convenience-container">
+
+      <!-- Left Content -->
+      <div class="convenience-content">
+        <h2>Taste the convenience.</h2>
+        <p>
+          Try us out! Delicious food and speedy groceries are at your
+          fingertips. Go ahead, download foodpanda now.
+        </p>
+
+        <div class="store-buttons">
+          <img src="./appstore.png" alt="App Store">
+          <img src="./google play.png" alt="Google Play">
+
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="convenience-image">
+        <img src="./convenience.webp" alt="Foodpanda Delivery">
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <section id="careers" class="hero">
+    <div class="hero-container">
+
+      <!-- Left Image -->
+      <div class="hero-image">
+        <img src="./job find.webp" alt="Team Working">
+      </div>
+
+      <!-- Right Content -->
+      <div class="hero-content">
+        <h1>Find the job you’d love</h1>
+        <p class="sub">
+          Hungry to make a difference? There’s a seat at our table!
+        </p>
+        <p class="desc">
+          Find out how we connect tech, passions, projects and people –
+          explore international career opportunities at foodpanda.
+        </p>
+        <button class="btn">Join us!</button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- news section -->
+
+  <section id="news-section" class="news-section">
+    <h2>Have you heard?</h2>
+    <p class="subtitle">
+      The industry is changing fast! Stay up to date with foodpanda press.
+    </p>
+
+    <div class="slider-wrapper">
+      <!-- <button class="nav-btn left" onclick="slideLeft()">‹</button> -->
+
+      <div class="slider" id="slider">
+
+        <div class="card">
+          <img src="./slider1.jpg" />
+          <div class="overlay">
+            <span class="tag">Press Releases</span>
+            <h3>
+              foodpanda expands ‘panda hearts’ programme, reports 30% drop in rider accidents across Asia
+            </h3>
+            <small>25.11.2025</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./slider2.jpg" />
+          <div class="overlay">
+            <span class="tag">Business</span>
+            <h3>
+              foodpanda brings unmatched value to pandapro members with one-of-a-kind partnerships
+            </h3>
+            <small>21.11.2025</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./slider3.jpg" />
+          <div class="overlay">
+            <span class="tag">Press Releases</span>
+            <h3>
+              foodpanda Singapore strengthens support for delivery partners through signed MOU
+            </h3>
+            <small>25.04.2025</small>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./slider4.jpg" />
+          <div class="overlay">
+            <span class="tag">Business</span>
+            <h3>
+              foodpanda delivers smarter logistics solutions across markets
+            </h3>
+            <small>31.01.2025</small>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- <button class="nav-btn right" onclick="slideRight()">›</button> -->
+    </div>
+  </section>
+
+
+
+
+  <!-- business section -->
+  <section id="business-section" class="business-section">
+    <div class="business-container">
+
+      <!-- Left Content -->
+      <div class="business-content">
+        <h2>Feed your team.</h2>
+        <p>
+          Treat your talented team to their favourite meals. Let them pick!
+          Explore flexible corporate food delivery options and tasty employee perks.
+        </p>
+        <a href="#" class="business-btn">Explore</a>
+      </div>
+
+      <!-- Right Image -->
+      <div class="business-image">
+        <img src="./businees.webp" alt="Foodpanda for business">
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- LOGO -->
+      <div class="footer-col">
+        <div class="logo">
+          <span class="logo-icon">🐼</span>
+          <span class="logo-text">foodpanda</span>
+        </div>
+      </div>
+
+      <!-- NAVIGATE -->
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Newsroom</li>
+
+        </ul>
+      </div>
+
+      <!-- COLLABORATE -->
+      <div class="footer-col">
+        <h4>Collaborate</h4>
+        <ul>
+          <li>Explore careers</li>
+          <li>Become a rider</li>
+          <li>Feed your team</li>
+        </ul>
+      </div>
+
+      <!-- SOCIAL -->
+      <div class="footer-col social">
+        <h4>Follow us on</h4>
+        <div class="icons">
+          <i class="fa-brands fa-2x fa-facebook-f"></i>
+          <i class="fa-brands fa-2x   fa-linkedin"></i>
+          <i class="fa-brands fa-2x  fa-instagram"></i>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="footer-bottom">
+      <p>Copyright © 2025 foodpanda</p>
+      <p class="privacy">Privacy Policy</p>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button id="scrollTopBtn">↑</button>
+
+
+  <script src="app.js">
+  </script>
+</body>
+
+</html>
